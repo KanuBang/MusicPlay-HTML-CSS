@@ -1,0 +1,279 @@
+.main {
+    width:100vw;
+    height: 1000px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #EAEAEF;
+}
+
+.main__box {
+    width:320px;
+    height: 640px;
+    margin: auto;
+    background-color: white;
+    border-radius: 30px;
+    position: relative;
+    top:-140px;
+}
+.main-first__box {
+    color: white;
+    background: linear-gradient( to bottom right, yellow, rgb(255, 92, 92),rgb(222, 61, 211),rgb(255, 92, 92),yellow );
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-bar{
+    display:flex;
+    justify-content: space-between;
+    margin:20px;
+}
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*background-color: aqua;*/
+}
+
+
+.main-info__img img {
+    width:100px;
+    height: 100px;
+    border-radius: 50px;
+    box-shadow: -2px 2px 5px 3px rgb(106, 80, 208);
+}
+.main-info-introduction__name{
+    font-size:30px;
+    font-weight: 600;
+    position: relative;
+    top:-30px;   
+}
+  
+.main-info-introduction__genre{
+    position: relative;
+    top:-70px; 
+    opacity: 0.8;
+}
+
+
+.main-info-function {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:-70px; 
+    width:90%;
+    /*background-color: blueviolet;*/
+}
+
+.main-info-function__box{
+    margin: auto;
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.fa-heart{
+    margin: 5px;
+    font-size: 15px;
+}
+
+.playlist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*background-color: blue;*/
+    position: relative;
+    top: -60px;
+}
+
+.playlist-component {
+    width:80%;
+    height: 50px;
+    /*background-color: blanchedalmond;*/
+    margin-top: 10px;
+    border-radius: 10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.playlist-component img {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.playlist-component-info {
+    height: 50px;
+    width:30%;
+    /*background-color: blueviolet;*/
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -40px;
+}
+.select {
+    border: 2px solid black;
+}
+
+
+.playlist-component-info__musician{
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+.playlist-component-info__title{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.fa-ellipsis-vertical{
+    margin-right: 10px;
+}
+
+.playbar__box {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:-40px;
+}
+.playbar{
+    width:90%;
+    background-color: black;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.playbar-title{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.playbar-control{
+    display: flex;
+    width:33%;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.small {
+    font-size: 10px;
+}
+
+.playbar-title-musician{
+    color:grey;
+}
+
+/* 2번째 스크린 시작*/
+.second {
+    color: white;
+    background: linear-gradient( to bottom right,rgb(14, 14, 72),rgb(242, 145, 161),rgb(52, 52, 197),rgb(242, 145, 161),rgb(14, 14, 72));
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main-info-album {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    /*background-color: black;*/
+}
+
+.main-info-album img {
+    width:250px;
+    height:260px;
+    border-radius: 40px;
+    box-shadow: -2px 2px 5px 3px rgb(106, 80, 208);
+}
+
+.name{
+    margin-top: 75px;
+    font-size:30px;
+    font-weight: 600;
+    position: relative;
+    top:-30px;   
+}
+  
+.genre{
+    position: relative;
+    top:-70px; 
+    opacity: 0.8;
+}
+
+.main-info-time {
+    width:80%;
+    /*background-color: aqua;*/
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top:-60px;
+    opacity: 0.7;
+}
+
+.main-info-timebar__box {
+    width:80%; /*음악 재생 바 조절*/
+    height: 5px;
+    display:flex;
+    justify-content: flex-start;
+    background-color: grey;
+    position: relative;
+    top:-50px;
+}
+
+.main-info-timebar{
+    background-color: black;
+    width:75%; /*음악 재생 바 조절*/
+}
+
+.fa-circle{
+    position:relative;
+    top:-5px;
+}
+
+.main-info-icon__box {
+    width:75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+}
+
+.fa-repeat,
+.fa-shuffle {
+    opacity: 0.8;
+    font-size: 15px;
+}
+
+.fa-backward-step,
+.fa-forward-step {
+    font-size: 20px;
+}
+
+.circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-play{
+    position: relative;
+    right:-3px; 
+    color:white;
+}
